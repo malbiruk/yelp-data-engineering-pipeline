@@ -1,0 +1,16 @@
+aiohttp
+alembic
+brotlipy
+sqlalchemy
+asyncpg
+BeautifulSoup4
+fastapi
+html5lib
+jsonpath-ng
+lxml
+pandas
+pydantic
+python-dotenv
+rich
+tenacity
+uvicorn

@@ -1,0 +1,6 @@
+.env
+proxies_list.txt
+__pycache__
+scraping_results.zip
+*.ndjson
+query.py

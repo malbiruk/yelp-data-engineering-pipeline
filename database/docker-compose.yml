@@ -1,0 +1,15 @@
+services:
+  yelp_db:
+    image: postgres
+    container_name: yelp_db
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DB}
+    ports:
+      - "${DB_PORT}:${DB_PORT}"
+    volumes:
+      - yelp_db_v:/var/lib/postgresql/data/
+volumes:
+  yelp_db_v:
